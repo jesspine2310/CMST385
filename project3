@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sweet Potatoes | Home</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p>Visible content goes here.</p>
-    </body>
+        <header>
+            <h1>Welcome to Sweet Potatoes</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="artist-info">
+                <h2>About Example Band</h2>
+                <img src="artist-image.jpg" alt="Example Band">
+                <p>Example Band is a groundbreaking music group known for their innovative sound and captivating performances.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 224 Example Band. All rights reserved.</p>
+        </footer>
+</body>
 </html>
